@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E6FFF6;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #C3FFE2;
+  position: relative;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  margin-bottom: 30px;
+}
+
+.hero-buttons button {
+  background-color: #00C897;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.hero-buttons button:hover {
+  background-color: #00B282;
+}
+
+.hero img {
+  margin-top: 20px;
+  width: 300px; /* Ajusta el tamaño según necesites */
+}

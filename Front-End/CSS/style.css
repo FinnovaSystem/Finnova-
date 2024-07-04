@@ -1,0 +1,200 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    transition: color 0.3s, border-bottom 0.3s;
+  }
+  
+  nav a:hover {
+    color: #00A591;
+    border-bottom: 2px solid #00A591;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 100px 20px 50px;
+    background: linear-gradient(135deg, #c3ffe2, #e6fff6);
+    color: #333;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons {
+    margin-bottom: 30px;
+  }
+  
+  .hero-buttons button {
+    background-color: #00C897;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2em;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .hero-buttons button:hover {
+    background-color: #00B282;
+    transform: translateY(-3px);
+  }
+  
+  .hero img {
+    margin-top: 20px;
+    width: 300px;
+  }
+  
+  .finanzas, .recomendacion, .reporte, .unete {
+    text-align: center;
+    padding: 150px 20px 50px;
+    background-color: #00A591;
+    color: #fff;
+  }
+  
+  .finanzas h2, .recomendacion h2, .reporte h2, .unete h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .finanzas p, .recomendacion p, .reporte p, .unete p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .recomendaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recomendacion-item {
+    margin-bottom: 20px;
+  }
+  
+  .recomendacion-item h3 {
+    font-size: 2em;
+    color: #00A591;
+  }
+  
+  .recomendacion-item p {
+    font-size: 1.2em;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group input, .form-group textarea {
+    width: 40%;
+    padding: 15px;
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: #00A591;
+    box-shadow: 0 0 10px rgba(0,165,145,0.2);
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .btn-enviar, .btn-info, .btn-siguiente, .btn-ingresar, .btn-atras {
+    background-color: #005F40;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-enviar:hover, .btn-info:hover, .btn-siguiente:hover, .btn-ingresar:hover, .btn-atras:hover {
+    background-color: #004833;
+    transform: translateY(-3px);
+  }
+  
+  .unete-content {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .unete-content img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .terms {
+    font-size: 0.8em;
+    margin-top: 20px;
+  }
+  
+  .terms a {
+    color: #00A591;
+    text-decoration: none;
+  }
+  
+  .terms a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  

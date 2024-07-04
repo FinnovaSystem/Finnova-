@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #E6FFF6;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding: 10px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00A591;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px 50px; /* Ajusta el padding superior para compensar el header fijo */
+  background-color: #C3FFE2;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  margin-bottom: 30px;
+}
+
+.hero-buttons button {
+  background-color: #00C897;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.hero-buttons button:hover {
+  background-color: #00B282;
+}
+
+.hero img {
+  margin-top: 20px;
+  width: 300px; /* Ajusta el tamaño según necesites */
+}
+
+.finanzas {
+  text-align: center;
+  padding: 150px 20px 50px; /* Ajusta el padding superior para compensar el header fijo */
+  background-color: #00A591;
+  color: #fff;
+}
+
+.finanzas h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.finanzas p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  margin: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  margin: 5px;
+  color: gray;
+}
+
+.form-group-dates {
+  padding-top: 3px;
+  margin-bottom: 20px;
+  margin: 5px;
+  color: gray;
+}
+
+.form-group-label1, .form-group-label2 {
+  margin-right: 5px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 100px;
+  margin-right: 5px;
+  display: inline;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 40%;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.btn-enviar {
+  background-color: #005F40;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-enviar:hover {
+  background-color: #004833;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+/* Estilos específicos para los nuevos elementos */
+.form-group-radio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  
+}
+
+.form-group-radio input[type="radio"] {
+  margin: 0 10px;
+  accent-color: #050505; /* Cambia el color del radio button */
+  
+}
+
+.form-group-radio label {
+  margin-right: 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+#campoMonto {
+  display: none; /* Oculto por defecto */
+}

@@ -1,0 +1,7 @@
+/mi-proyecto
+  /css
+    styles.css
+  /js
+    scripts.js
+  index.html
+

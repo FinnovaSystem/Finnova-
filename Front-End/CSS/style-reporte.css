@@ -1,0 +1,25 @@
+.reporte {
+    text-align: center;
+    padding: 100px 20px 50px; /* Ajusta el padding superior para compensar el header fijo */
+    background-color: #E6FFF6;
+  }
+  
+  .reporte h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .reporte p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .reporte-imagen {
+    margin-top: 30px;
+  }
+  
+  .reporte-imagen img {
+    width: 50%;
+    height: auto;
+  }
+  

@@ -1,0 +1,43 @@
+.recomendacion {
+    text-align: center;
+    padding: 100px 20px 50px; /* Ajusta el padding superior para compensar el header fijo */
+    background-color: #E6FFF6;
+  }
+  
+  .recomendacion h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .recomendaciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recomendacion-item {
+    margin-bottom: 20px;
+  }
+  
+  .recomendacion-item h3 {
+    font-size: 1.5em;
+    color: #00A591;
+  }
+  
+  .recomendacion-item p {
+    font-size: 1.2em;
+  }
+  
+  .btn-info {
+    background-color: #00A591;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-info:hover {
+    background-color: #007F6A;
+  }
+  
